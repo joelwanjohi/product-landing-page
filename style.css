@@ -168,3 +168,57 @@ button.cta i {
 .item img:hover {
     width: 70px;
 }
+
+.item .color-selector {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    background-color: #161515;
+    width: 16px;
+    height: 16px;
+    transform: translate(-50%, -50%);
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+
+.item:first-child {
+    transform: translateX(-50%);
+}
+
+.item:last-child {
+    transform: translateX(50%);
+}
+
+.item.active img {
+    width: 130px;
+}
+
+.item.active .color-selector {
+    width: 28px;
+    height: 28px;
+    background-color: rgb(183, 110, 121);
+}
+
+.item.active {
+    min-width: 220px;
+}
+
+.additional-info {
+    background-color: rgba(183, 110, 121);
+    color: #f3f3f3;
+    border-radius: 10px;
+    position: absolute;
+    left: 72%;
+    width: 75%;
+    text-align: right;
+    padding: 16px 24px;
+    line-height: 23px;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+    font-weight: bold;
+}
+
+.additional-info:hover{
+    background-color: rgb(183, 110, 121);
+    color: #000000;
+}
