@@ -222,3 +222,76 @@ button.cta i {
     background-color: rgb(183, 110, 121);
     color: #000000;
 }
+
+/* about */
+.about {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 3rem 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.about .row .image {
+    text-align: center;
+    margin-right: 2rem;
+}
+
+.about .row .image img {
+    max-width: 100%;
+    border-radius: .5rem;
+}
+
+.about .row .content {
+    text-align: left;
+}
+
+.about .row .content h3 {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.about .row .content p {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+}
+
+.about .row .content p i {
+    padding-right: .5rem;
+    color: #637CBB;
+}
+
+.btn {
+    background-color: #637CBB;
+    color: #fff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .3rem;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #445573;
+}
+
+
+/* about ends here */
+
+
