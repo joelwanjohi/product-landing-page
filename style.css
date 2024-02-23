@@ -126,3 +126,45 @@ button.cta i {
     font-size: 1.7em;
     margin-left: 16px;
 }
+
+
+/*  Right Side  */
+
+.right {
+    padding: 40px 0 0 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+.right img {
+    max-width: 450px;
+}
+
+.colors {
+    display: flex;
+    border-top: 3px double #e08d49;
+}
+
+.colors .item {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    min-height: 180px;
+    padding-top: 40px;
+    color: #fff;
+}
+
+.item img {
+    position: relative;
+    width: 60px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+
+.item img:hover {
+    width: 70px;
+}
