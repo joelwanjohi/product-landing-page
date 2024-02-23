@@ -277,8 +277,8 @@ button.cta i {
 }
 
 .btn {
-    background-color: #637CBB;
-    color: #fff;
+    background-color: #fff;
+    color: black;
     padding: 1rem 2rem;
     border: none;
     border-radius: .3rem;
@@ -290,7 +290,7 @@ button.cta i {
 }
 
 .btn:hover {
-    background-color: #445573;
+    background-color: #22b512;
 }
 
 
