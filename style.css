@@ -228,7 +228,7 @@ button.cta i {
     background: #222;
     color: #fff;
     text-align: center;
-    padding: 3rem 0;
+    padding: 90px;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -250,21 +250,21 @@ button.cta i {
 }
 
 .about .row .image img {
-    max-width: 100%;
+    max-width: 450px;
     border-radius: .5rem;
 }
 
 .about .row .content {
-    text-align: left;
+    text-align: right;
 }
 
 .about .row .content h3 {
-    font-size: 3.5rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
 }
 
 .about .row .content p {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     line-height: 1.5;
     padding-bottom: 1rem;
 }
