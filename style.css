@@ -246,7 +246,8 @@ button.cta i {
 
 .about .row .image {
     text-align: center;
-    margin-right: 2rem;
+    margin-left: auto; /* Adjusted to margin-left: auto to push image to the right */
+    order: 2; /* Change the order to 2 to move the image to the right */
 }
 
 .about .row .image img {
@@ -255,7 +256,8 @@ button.cta i {
 }
 
 .about .row .content {
-    text-align: right;
+    text-align: left;
+    order: 1; /* Change the order to 1 to move the content to the left */
 }
 
 .about .row .content h3 {
