@@ -114,3 +114,15 @@ button.cta{
 button.cta:hover {
     background-color: #22b512;
 }
+
+button span {
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+button.cta i {
+    font-size: 1.7em;
+    margin-left: 16px;
+}
