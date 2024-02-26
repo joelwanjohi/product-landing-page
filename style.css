@@ -5,7 +5,8 @@
     font-family: 'Montserrat', sans-serif;
 } */
 :root{
-    --gradient:linear-gradient(90deg, #637CBB, #485E95);
+    --gradient:linear-gradient(90deg, #e3eeef, #f1f3f7);
+    --menu-background: #e3eeef;
 }
 
 *{
@@ -27,7 +28,7 @@ body{
 header{
     position: fixed;
     top: 0;
-    height: 90px;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -36,6 +37,7 @@ header{
     font-size: 1.2em;
     z-index: 2;
     color: #fff;
+    background-color: var(--menu-background);
 }
 
 .logo{
@@ -58,7 +60,7 @@ header{
     margin-left: 44px;
     cursor: pointer;
     transition: color 0.5s;
-    color: #fff;
+    color: #000;
 }
 
 .menu-list li:active,
