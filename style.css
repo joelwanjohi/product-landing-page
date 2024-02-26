@@ -92,7 +92,7 @@ header{
 }
 
 .title strong{
-    font-size: 1.2em;
+    font-size: 0.7em;
     display: block;
     line-height: 80px;
     color: #ffffff;
@@ -308,6 +308,7 @@ button.cta i {
 
 .product .box-container .box .content .price{
     font-size: 2.0rem;
+    padding: 0.5rem;
     font-family: 'Lucida Sans', sans-serif;
     color:#fff;
 }
