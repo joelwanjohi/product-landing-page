@@ -307,7 +307,8 @@ button.cta i {
 }
 
 .product .box-container .box .content .price{
-    font-size: 3rem;
+    font-size: 2.0rem;
+    font-family: 'Lucida Sans', sans-serif;
     color:#fff;
 }
 
@@ -395,7 +396,7 @@ button.cta i {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
 }
 .container{
     margin: 0;
@@ -499,3 +500,102 @@ textarea::-webkit-scrollbar-thumb{
     opacity: 0.7;
 }
 /*contact us ends here*/
+
+
+/*media querly*/
+
+ /* Add this at the end of your existing CSS */
+
+@media only screen and (max-width: 768px) {
+    header {
+      height: auto;
+      padding: 15px;
+      flex-direction: column;
+      align-items: flex-end; /* Align items to the end */
+    }
+  
+    .menu-list {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      text-align: end;
+      background-color: var(--menu-background);
+      width: 100%;
+      position: absolute;
+      top: 50px;
+      left: 0;
+      transition: max-height 0.3s ease-in-out;
+      overflow: hidden;
+      max-height: 100vh;
+    }
+  
+    .menu-list.active {
+      max-height: 10px;
+    }
+  
+    .menu-list li {
+      display: block;
+      margin: 10px 0;
+    }
+  
+    .main {
+      padding-top: 50px;
+    }
+  
+    .left,
+    .right {
+      max-width: 100%;
+      padding: 0 20px;
+      text-align: center;
+    }
+  
+    .right img {
+      max-width: 100%;
+    }
+  
+    .product .box-container .box {
+      width: 90%;
+    }
+  
+    .product .box-container .box .image img {
+      width: 100%;
+      border-right: none;
+    }
+  
+    .about {
+      padding: 50px 20px;
+    }
+  
+    .about .row {
+      flex-direction: column-reverse;
+    }
+  
+    .about .row .content,
+    .about .row .image {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .about .row .content,
+    .about .row .image img {
+      max-width: 100%;
+    }
+  
+    .container form {
+      width: 90%;
+    }
+  
+    .container form h1,
+    .container form #button {
+      margin-right: 0;
+    }
+  
+    .menu-icon {
+      margin-right: auto; /* Move the icon to the end */
+    }
+  }
+   
+  
+  /*end of media querly*/
+
+  

@@ -17,6 +17,8 @@
 </head>
 
 <body>
+    <button class="home-button">Home</button>
+
 
     <header>
         <div class="logo">
@@ -191,6 +193,17 @@
             document.querySelector(this.getAttribute('href')).scrollIntoView({
                 behavior: 'smooth'
             });
+        });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get the home button element
+        const homeButton = document.querySelector('.home-button');
+
+        // Add a click event listener to the home button
+        homeButton.addEventListener('click', function () {
+            // Redirect to the home page (replace 'your-home-page.html' with your actual home page URL)
+            window.location.href = 'your-home-page.html';
         });
     });
 </script>
