@@ -237,20 +237,24 @@ button.cta i {
 /* products starts here*/
 
 .product{
-    min-height: 80vh;
+
+    min-height: 100vh;
 
     background: url(./images/new\ 1.jpg) no-repeat 0 0;
 }
 .product h1.heading {
     text-align: center;
     color: #fff;
-    font-size: 2.5rem;
-    margin-bottom: 10px;
+    font-size: 1.2rem;
+    margin: 48px auto;
+    letter-spacing: 1px;
     
 }
 
 .product .box-container{
     display: flex;
+    min-height: 60vh;
+    min-width: 60vh;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
@@ -283,14 +287,23 @@ button.cta i {
 }
 
 .product .box-container .box .content h3{
-    font-size: 3rem;
+    font-size: 2.8rem;
+    letter-spacing: 1px;
+    margin: 20px auto;
     color:#fff;
 }
 
 .product .box-container .box .content p{
-    font-size: 1.3rem;
+    font-size: 1.0rem;
     color:#eee;
     padding:1rem 0;
+    
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 1em;
+    letter-spacing: 0.7px;
+    line-height: 32px;
+    margin-bottom: 48px;
+    color: #fff;
 }
 
 .product .box-container .box .content .price{
@@ -302,7 +315,7 @@ button.cta i {
 
 /* about */
 .about {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Lucida Sans', sans-serif;
     background: #222;
     color: #fff;
     text-align: center;
