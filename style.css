@@ -241,6 +241,13 @@ button.cta i {
 
     background: url(./images/new\ 1.jpg) no-repeat 0 0;
 }
+.product h1.heading {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    
+}
 
 .product .box-container{
     display: flex;
